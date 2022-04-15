@@ -14,6 +14,10 @@ def index(request):
 
     return render(request,'index.html')
 
+def about(request):
+    #logic need to added for post request form
+    return render(request,'about.html')    
+
 def view(request):
     # if request.method == "POST":
     #     info = request.POST["pass"]
