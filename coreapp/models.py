@@ -8,4 +8,7 @@ class Info(models.Model):
    phone=models.CharField(max_length=12)
    message=models.CharField(max_length=300)
 
+   def __str__(self):
+        return self.name
+
 
